@@ -1,15 +1,20 @@
-# naren199
+# YOUTUBE-DATA-HARVESTING-AND-WAREHOUSING
 
-# singapore_resale_flate_pricing
+**INTRODUCTION**
+YouTube data harvesting and warehousing involves collecting, storing, and analyzing data from the platform for various purposes, such as marketing, research, or content creation.It is used to develop a user-friendly application that allows users to retrieve, save, and query YouTube channel and video data.
 
-**Introduction** : This project aims to construct a machine learning model and implement it as a user-friendly online application in order to provide accurate predictions about the resale values of apartments in Singapore. This prediction model will be based on past transactions involving resale flats, and its goal is to aid both future buyers and sellers in evaluating the worth of a flat after it has been previously resold. Resale prices are influenced by a wide variety of criteria, including location, the kind of apartment, the total square footage, and the length of the lease. The provision of customers with an expected resale price based on these criteria is one of the ways in which a predictive model may assist in the overcoming of these obstacles.
+**REQUIRED LIBRARIES**
+1.googleapiclient.discovery
+2.streamlit
+3.psycopg2
+4.pymongo
+5.pandas.
 
-**Domain** : Real Estate
+**FEATURES**
+---->The following functions are available in the YouTube Data Harvesting and Warehousing application:
+---->Retrieval of channel and video data from YouTube using the YouTube API.
+---->Storage of data in a MongoDB database as a data lake.
+---->Migration of data from the data lake to a SQL database for efficient querying and analysis.
+---->Search and retrieval of data from the SQL database using different options.
 
-**Prerequisites**
-Python -- Programming Language
-pandas -- Python Library for Data Visualization
-numpy -- Fundamental Python package for scientific computing in Python
-streamlit -- Python framework to rapidly build and share beautiful machine learning and data science web apps
-scikit-learn -- Machine Learning library for the Python programming language
 
